@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&Pacifico:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Sign-up Form</title>
+</head>
+
+<body>
+  <aside class="sidebar">
+    <div class="logo-container">
+      <img src="./odin-lined.png" alt="odin logo">
+      <p>Join</p>
+    </div>
+    <div class="attribution">
+      Photo by <a href="https://unsplash.com/@krakenimages?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">krakenimages</a> on <a href="https://unsplash.com/s/photos/metal?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+    </div>
+  </aside>
+  <main class="form-container">
+    <div class="main-heading">
+      <h1>Form Project</h2>
+      <p>This is not a real service! This form is coded for the Odin Project.</p>
+    </div>
+    <form method="post" class="form">
+      <div class="inputs">
+        <h2 class="form-heading">Join Our Community</h2>
+        <div class="input-line">
+          <div class="input-container">
+            <label for="fname">First Name</label>
+            <input type="text" name="fname" id="fname" required>
+          </div>
+          <div class="input-container">
+            <label for="lname">Last Name</label>
+            <input type="text" name="lname" id="lname" required>
+          </div>
+        </div>
+        <div class="input-line">
+          <div class="input-container">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required>
+          </div>
+          <div class="input-container">
+            <label for="tel">Phone Number</label>
+            <input type="tel" name="tel" id="tel" required>
+          </div>
+        </div>
+        <div class="input-line">
+          <div class="input-container">
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" required>
+          </div>
+          <div class="input-container">
+            <label for="re-password">Confirm Password</label>
+            <input type="password" name="re-password" id="re-password" required>
+          </div>
+        </div>
+      </div>
+      <button type="submit">Create Account</button>
+    </form>
+    <div class="login-link">
+      Already have an account? <a href="#">Log in</a>
+    </div>
+    <script src="./script.js"></script>
+  </main>
+</body>
+
+</html>
